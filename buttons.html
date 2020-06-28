@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+        <style>
+
+
+            .bg-purple
+            {
+                background-color: #9e19df;
+            }
+            .bg-purple:hover
+            {
+                background-color: #8114b6;
+            }
+            .bg-blue
+            {
+                background-color: #0000fe;
+            }
+            .bg-blue:hover
+            {
+                background-color: #0e0ecb;
+            }
+            .bg-pink
+            {
+                background-color: #cf4fcf;
+            }
+            .bg-pink:hover{
+                background-color: #991399;
+            }
+
+
+
+
+
+            /* FORM TYPOGRAPHY*/
+
+            .btn-stying
+            {
+                border: none;
+                color: white;
+                padding: 15px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 14px;
+                width: 96%;
+            }
+
+            .button-round  {
+                -webkit-border-radius: 5px 5px 5px 5px;
+                border-radius: 5px 5px 5px 5px;
+            }
+
+
+            .button2-round  {
+
+                -webkit-border-radius: 5px 5px 5px 5px;
+                border-radius: 5px 5px 5px 5px;
+            }
+
+            .button1-rectangle  {
+
+                -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+                box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+
+                -webkit-transition: all 0.3s ease-in-out;
+                -moz-transition: all 0.3s ease-in-out;
+                -ms-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+            }
+
+
+
+            .button1-rectangle-without-shadow  {
+
+                -webkit-transition: all 0.3s ease-in-out;
+                -moz-transition: all 0.3s ease-in-out;
+                -ms-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+            }
+
+
+            input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+                -moz-transform: scale(0.95);
+                -webkit-transform: scale(0.95);
+                -o-transform: scale(0.95);
+                -ms-transform: scale(0.95);
+                transform: scale(0.95);
+            }
+
+
+
+            /* Simple CSS3 Fade-in Animation */
+            @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+            @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+            @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+            .fadeIn {
+                opacity:0;
+                -webkit-animation:fadeIn ease-in 1;
+                -moz-animation:fadeIn ease-in 1;
+                animation:fadeIn ease-in 1;
+
+                -webkit-animation-fill-mode:forwards;
+                -moz-animation-fill-mode:forwards;
+                animation-fill-mode:forwards;
+
+                -webkit-animation-duration:1s;
+                -moz-animation-duration:1s;
+                animation-duration:1s;
+            }
+
+            .fadeIn.first {
+                -webkit-animation-delay: 0.4s;
+                -moz-animation-delay: 0.4s;
+                animation-delay: 0.4s;
+            }
+
+            .fadeIn.second {
+                -webkit-animation-delay: 0.6s;
+                -moz-animation-delay: 0.6s;
+                animation-delay: 0.6s;
+            }
+
+            .fadeIn.third {
+                -webkit-animation-delay: 0.8s;
+                -moz-animation-delay: 0.8s;
+                animation-delay: 0.8s;
+            }
+
+            .fadeIn.fourth {
+                -webkit-animation-delay: 1s;
+                -moz-animation-delay: 1s;
+                animation-delay: 1s;
+            }
+
+
+            .margin-50
+            {
+                margin-top: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+
+        <!------ Include the above in your HEAD tag ---------->
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Round Blue</h5>
+                        <input type="submit" class="fadeIn fourth button-round btn-stying bg-blue" value="Accept the Frame">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Rectangle Blue</h5>
+                        <input type="submit" class="fadeIn fourth btn-stying bg-blue" value="Systems vs Goals">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Round Purple</h5>
+                        <input type="submit" class="fadeIn fourth button-round btn-stying bg-purple" value="Talent Stacking">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Rectangle Purple</h5>
+                        <input type="submit" class="fadeIn fourth  btn-stying bg-purple" value="Affirmations">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Round Pink</h5>
+                        <input type="submit" class="fadeIn fourth button-round btn-stying bg-pink" value="Mating Instincts">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Rectangle Pink</h5>
+                        <input type="submit" class="fadeIn fourth  btn-stying bg-pink" value="Freedom">
+                    </div>
+                </div>
+
+
+                <div class="row margin-50">
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth btn-stying bg-blue" value="Fear">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth btn-stying bg-blue" value="Curiosity">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth btn-stying bg-blue" value="Novelty">
+                    </div>
+                </div>
+                <div class="row margin-50">
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth button-round btn-stying bg-pink" value="Contrast">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth button-round btn-stying bg-pink" value="Repetition">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth button-round btn-stying bg-pink" value="Simplicity">
+                    </div>
+                </div>
+                <div class="row margin-50">
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth btn-stying bg-purple" value="Fake Because">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth btn-stying bg-purple" value="Pacing/Leading">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" class="fadeIn fourth btn-stying bg-purple" value="Aspiration">
+                    </div>
+                </div>
+
+
+                <div class="row margin-50">
+                    <div class="col-md-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EZZ_Ydu81ow" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </body>
+</html>
